@@ -14,7 +14,7 @@ class Display extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:3080/api/data_retrieve').then(res => {
+        axios.get(`${ process.env.REACT_APP_HOST}/api/data_retrieve`).then(res => {
             this.setState({
                 users_data: res.data
             })

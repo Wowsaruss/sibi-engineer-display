@@ -11,7 +11,7 @@ class Details extends Component {
     }
 
     componentDidMount() {
-        axios.get(`http://localhost:3080/api/user_details/${this.props.match.params.id}`).then(res => {
+        axios.get(`${ process.env.REACT_APP_HOST}/api/user_details/${this.props.match.params.id}`).then(res => {
             this.setState({
                 user: res.data
             })
