@@ -1,5 +1,117 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  background-color: rgb(45, 45, 45);
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.logo-parent {
+width: 100vw;
+padding: 100px 0px 50px 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo {
+  height: 300px;
+  width: auto;
+}
+
+
+.search-input-main-parent {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-input-box {
+  text-align: center;
+  height: 60px;
+  width: 300px;
+  font-size: 40px;
+}
+
+
+.width {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-of-names-main-parent {
+  margin: 0px;
+  height: 250px;
+  width: 600px;
+  background-color: rgb(94, 94, 94);
+  overflow: scroll;
+}
+.data-ul-li-main {
+  padding: 20px;
+  background-color: rgb(55, 55, 55);
+  color: rgb(227, 227, 227);
+  height: 50px;
+  width: 200px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.data-ul-li-main:hover {
+  background-color: rgb(0, 174, 249);
+  color: black;
+}
+
+
+.details-main-display-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-title {
+  font-size: 60px;
+  color: white;
+}
+.details-main-display {
+  background-color: rgb(79, 79, 79);
+  color: rgb(205, 205, 205);
+  height: 200px;
+  width: 400px;
+  overflow: scroll;
+}
+.item-description {
+  font-size: 20px;
+  color: rgb(0, 174, 249);
+}
+
+
+.submit {
+  background-color: rgb(0, 174, 249);
+  height: 70px;
+  width: 250px;
+  font-size: 30px;
+  font-weight: 200;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: 2px 5px 20px rgb(0, 0, 0);
+  margin: 20px;
+}
+.submit:hover {
+  background-color: brown;
+  color: white;
+  box-shadow: none;
+  font-weight: 600;
 }
